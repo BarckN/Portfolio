@@ -15,12 +15,6 @@ footer p{
     color: white;
 }
 
-.affiche{
-    display: block;
-}
-.pasAffiche{
-    display: none;
-}
 .tick{
     height:16px;
     width: 16px;
@@ -45,6 +39,7 @@ ul{
 
 .footerIndex{
     margin-top: 5%;
+    background-color: black!important ;
 }
 details{
     border-style: solid;
