@@ -1,0 +1,70 @@
+a{
+    color: white;
+}
+a:hover{
+    color:rgb(212, 220, 226);
+}
+.nav-link:hover{
+    color: rgb(212, 220, 226);
+}
+
+.nav-link{
+    color: white;
+}
+footer p{
+    color: white;
+}
+
+.affiche{
+    display: block;
+}
+.pasAffiche{
+    display: none;
+}
+.tick{
+    height:16px;
+    width: 16px;
+    color:black;
+}
+ul{
+    list-style: none;
+}
+.imgProjets{
+    width: 550px;
+    height: 350px;
+}
+.imgTableau{
+    width: 600px;
+    height: 300px;
+}
+
+.footerProjets{
+    margin-top: 8.75%;
+
+}
+
+.footerIndex{
+    margin-top: 5%;
+}
+details{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgba(218, 214, 214, 0.527);
+}
+
+details > summary {
+    list-style: none;
+    background-color: rgba(231, 228, 228, 0.527);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgba(218, 214, 214, 0.527);
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.firstDetail{
+    margin-top: 6.5%;
+}
