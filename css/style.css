@@ -38,7 +38,7 @@ ul{
 }
 
 .footerIndex{
-    margin-top: 5%;
+    margin-top: 8.75%;
     background-color: black!important ;
 }
 details{
@@ -55,6 +55,7 @@ details > summary {
     border-radius: 5px;
     border-width: 1px;
     border-color: rgba(218, 214, 214, 0.527);
+    padding: 1rem;
 }
 details > summary::-webkit-details-marker {
     display: none;
@@ -62,4 +63,8 @@ details > summary::-webkit-details-marker {
 
 .firstDetail{
     margin-top: 6.5%;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #919497!important;
 }
