@@ -33,13 +33,17 @@ ul{
 }
 
 .footerProjets{
-    margin-top: 8.75%;
-
+    margin-top: 2.88rem;
+    background-color: black!important ;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .footerIndex{
-    margin-top: 8.75%;
+    margin-top: 3.05rem;
     background-color: black!important ;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 details{
     border-style: solid;
@@ -49,7 +53,7 @@ details{
 }
 
 details > summary {
-    list-style: none;
+    /* list-style: none; */
     background-color: rgba(231, 228, 228, 0.527);
     border-style: solid;
     border-radius: 5px;
