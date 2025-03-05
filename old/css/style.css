@@ -1,0 +1,90 @@
+a{
+    color: white;
+}
+a:hover{
+    color:rgb(212, 220, 226);
+}
+.nav-link:hover{
+    color: rgb(212, 220, 226);
+}
+
+.nav-link{
+    color: white;
+}
+footer p{
+    color: white;
+}
+
+.tick{
+    height:16px;
+    width: 16px;
+    color:black;
+}
+ul{
+    list-style: none;
+}
+.imgProjets{
+    width: 550px;
+    height: 350px;
+}
+.imgTableau{
+    width: 600px;
+    height: 300px;
+}
+
+.footerProjets{
+    margin-top: 2.88rem;
+    background-color: black!important ;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footerIndex{
+    margin-top: 3.05rem;
+    background-color: black!important ;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+details{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgba(218, 214, 214, 0.527);
+}
+
+details > summary {
+    /* list-style: none; */
+    background-color: rgba(231, 228, 228, 0.527);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgba(218, 214, 214, 0.527);
+    padding: 1rem;
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.firstDetail{
+    margin-top: 6.5%;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #919497!important;
+}
+
+.card-img-top{
+    height: 15rem;
+    width: 15rem;
+    vertical-align: middle ;
+}
+.linkCertif{
+    color:black;
+    text-decoration: none;
+}
+.linkCertif:hover{
+    opacity: 0.7;
+}
+.linkCertif:active{
+    color:rgba(0, 0, 0, 0.623);
+}
