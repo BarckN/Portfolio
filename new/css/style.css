@@ -25122,3 +25122,36 @@ h5.texti {
 }
 
 /* //shortcodes page */
+
+details{
+  padding: 0.5em 0.5em 0;
+
+}
+
+details:hover {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
+
+details[open] p{
+  margin-left: 15px;
+  margin-top: 0px !important; 
+}
+
+details[open]{
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
