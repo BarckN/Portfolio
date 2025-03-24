@@ -1,0 +1,19 @@
+Region: id, nom
+Appartenir, 11 Utilisateur, 0N Region
+Utilisateur: id, nom, prenom, login, mot_passe, date_embauche, date_depart
+Déclarer, 11 FicheFrais, 0N Utilisateur
+FicheFrais: mois, nb_justificatifs, montant_valide, date_modif
+Contenir, 11 FraisHorsForfait, 0N FicheFrais
+FraisHorsForfait: num,date,montant
+Provenir, 1N LibelleHorsForfait, 11 FraisHorsForfait
+LibelleHorsForfait: id, libelle, minimum, maximum
+
+Profil: id, nom
+Avoir, 11 Utilisateur, 1N Profil
+Obtenir, 01 Utilisateur, 0N EchelonHorsForfait
+EchelonHorsForfait:id, echelon, plafond
+Posséder, 11 FicheFrais, 0N StatutFicheFrais
+StatutFicheFrais:code, libelle
+FraisForfait, 1N CategorieFraisForfait, 1N FicheFrais : quantite
+CategorieFraisForfait: code, libelle, prix_unitaire
+:
