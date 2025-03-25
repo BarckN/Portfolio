@@ -11917,7 +11917,7 @@ a {
 }
 
 a:hover {
-  color: var(--primary-color);
+  color:rgb(52 192 235);
   text-decoration: underline;
 }
 
@@ -25187,4 +25187,8 @@ details[open]{
 .image_blanc{
   border:lightslategray 1px solid;
   border-radius: 10px;
+}
+
+.btn-ressource{
+  text-decoration: underline !important;
 }
