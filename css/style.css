@@ -25192,3 +25192,20 @@ details[open]{
 .btn-ressource{
   text-decoration: underline !important;
 }
+
+.button_pdf{
+  background-color: red;
+  color: white;
+  border: white 1px solid;
+  border-radius: 15px;
+  transition: width 1.5s,height 1.5s ease;
+}
+
+button .a_pdf{
+  color:inherit;
+}
+
+.button_pdf:hover{
+  height: 102%;
+  width: 102%;
+}
